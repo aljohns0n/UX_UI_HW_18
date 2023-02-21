@@ -1,5 +1,5 @@
-h2{
-    font-family: "Be Vietnam Pro"
+h{
+    font-family: "Be Vietnam Pro";
 }
 p{
     font-family: "Be Vietnam Pro";
@@ -190,11 +190,16 @@ p{
         
     }
 
-.skills-card{
-    box-shadow: 0 0 3px rgba(0, 0, 225, .2);
-    
-}
-
+    .skills-card{
+        box-shadow: 0 0 .8em rgba(0, 0, 0, .1);
+        border-radius: .5em;
+        padding:1.2em 1em 1.2em 1em;
+        margin-left:.7em;
+        margin-right:.7em;
+    }
+    .skills-title{
+        font-family: "Be Vietnam Pro";
+    }
     /*overwrite list-group-item class*/
     .list-group-item{
         border: 0px;
@@ -202,7 +207,7 @@ p{
         font-family: "Be Vietnam Pro";
         color:#939393;
         font-weight:200;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
 
