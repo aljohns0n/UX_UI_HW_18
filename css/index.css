@@ -191,24 +191,32 @@ p{
     }
 
     .skills-card{
-        box-shadow: 0 0 .8em rgba(0, 0, 0, .1);
+        box-shadow: 0 0 1em rgba(205, 205, 205, .4);
         border-radius: .5em;
-        padding:1.2em 1em 1.2em 1em;
-        margin-left:.7em;
-        margin-right:.7em;
+        padding:1.5em 0em 1.2em 0em;
+        margin-left:1em;
+        margin-right:1em;
     }
     .skills-title{
         font-family: "Be Vietnam Pro";
+        font-size:1.4em;
+        font-weight: 600;
     }
     /*overwrite list-group-item class*/
     .list-group-item{
         border: 0px;
+        margin:auto;
         padding: 0rem;
         font-family: "Be Vietnam Pro";
         color:#939393;
         font-weight:200;
         font-size: 1em;
     }
+
+
+.margin-styling{
+    margin:7em 1.3em 0em 1.3em;
+}
 
 
 
@@ -236,6 +244,9 @@ p{
         font-size: 1em;
         color:#939393;
         padding-bottom: 0px;
-}
+        }
+    .skills-col{
+        margin-top:2em;
+    }
     }
 }
