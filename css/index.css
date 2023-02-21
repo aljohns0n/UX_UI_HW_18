@@ -185,9 +185,27 @@ p{
     }
 
 /* skills formatting*/
-.skills-header{
-    text-align: center;
+    .skills-header{
+        text-align: center;
+        
+    }
+
+.skills-card{
+    box-shadow: 0 0 3px rgba(0, 0, 225, .2);
+    
 }
+
+    /*overwrite list-group-item class*/
+    .list-group-item{
+        border: 0px;
+        padding: 0rem;
+        font-family: "Be Vietnam Pro";
+        color:#939393;
+        font-weight:200;
+        font-size: 1.1em;
+    }
+
+
 
 /* css to change with bootstrap responsive size */
 @media only screen and (max-width: 767px) {
