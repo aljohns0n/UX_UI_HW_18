@@ -213,9 +213,13 @@ p{
         font-size: 1em;
     }
 
-
+#skills-name{
+    font-family:"Be Vietnam Pro";
+    text-align: center;
+    
+}
 .margin-styling{
-    margin:7em 1.3em 0em 1.3em;
+    margin:2em 1.5em 10em 1.5em;
 }
 
 
